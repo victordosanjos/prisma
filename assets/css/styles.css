@@ -1,0 +1,166 @@
+
+/* All Nav Bar */
+
+.aushaush {
+    padding-left: 19%;
+    background-color: #0ecaff;
+}
+
+@media (prefers-color-scheme: dark) {
+    .aushaush {
+    background-color: #2593b2;
+    }
+}
+
+.nav-control-text {
+    font-weight: 500;
+    font-size: 18px;
+    padding-right: 30%;
+}
+
+/* All Hero */
+
+.super-hero {
+    background-color: #0ecaff;
+    text-align: center;
+}
+
+  @media (prefers-color-scheme: dark) {
+    .super-hero {
+    background-color: #2593b2;
+    }
+}
+
+.hero-background {
+   background-image: url('https://i.ibb.co/KWcHx93/hero-background.webp');
+   background-repeat:no-repeat;
+   background-position: center;
+   background-size: 60%;
+   line-height: 400%;
+}
+
+.main-title {
+    color: white;
+    font-weight: 620;
+    font-size: calc(4.375rem + 1.5vw);
+    text-shadow: 6px 1px 10px black;;
+}
+
+.vip-advantages {
+    font-size: 20px;
+}
+
+.play-mc-text {
+    color: #63ff78;
+    font-size: 15px;
+}
+
+@font-face {
+    font-family: Kamber;
+    src: url(https://fontsfree.net//wp-content/fonts/basic/various-basic/FontsFree-Net-aa1-3.ttf);
+}
+
+.server-information {
+    line-height: 450%;
+}
+
+/* Information about VIP to buy */
+
+.advantagesVip {
+    background: #8BE4B9;
+    color: black;
+}
+
+@media (prefers-color-scheme: dark) {
+    .advantagesVip {
+    background-color: #55aa81;
+    color: white;
+    }
+}
+
+.imagesCirclesVip {
+    padding-right:3%;
+}
+
+/* Play Server IP */
+
+.playServerIP {
+    background-color: black;
+    background-position-x: 44%;
+    line-height: 355%;
+}
+
+.JOGAR {
+    font-size: 8vh;
+    color: white;
+}
+
+   
+.text_pop span{
+    animation: in 0.5s forwards;
+  }
+  .text_pop span:hover{
+    animation: out 0.5s forwards;
+  }
+  
+  @keyframes out {
+  0% {
+    text-shadow: -4px 4px 0px #ffffff ,
+  }
+  50% {
+    text-shadow: -4px 4px 0px #ffffff , -8px 8px 0px #00eeff ,
+  }
+  100% {
+    text-shadow: -4px 4px 0px #ffffff , -8px 8px 0px #00eeff ,
+    -12px 12px 0px #4d1a26;
+    transform: translate(12px,-12px);
+   }
+  }
+  
+  @keyframes in {
+  0% {
+    text-shadow: -4px 4px 0px #ffffff , -8px 8px 0px #00eeff ,
+    -12px 12px 0px #4d1a26;
+    transform: translate(12px,-12px);
+  }
+  33% {
+    text-shadow: -4px 4px 0px #ffffff , -8px 8px 0px #00eeff ,
+  }
+  66% {
+    text-shadow: -4px 4px 0px #ffffff ,
+  }
+  100% {
+    text-shadow: -4px 4px 0px #ffffff ,
+   }
+   
+  }         
+
+.vipSupport{
+    font-size: 8vh;
+    padding-bottom: 6%;
+
+}
+
+
+/* Alterações específicas */
+.mlnone {
+    margin-left: 0;
+}
+
+.mrnone {
+    margin-right: 0;
+}
+
+.ttu {
+    text-transform: uppercase;
+}
+
+.tcw {
+    color: white;
+}
+
+@media (prefers-color-scheme: dark) {
+    .form-control::-webkit-input-placeholder{
+        color: white;
+    }
+}
