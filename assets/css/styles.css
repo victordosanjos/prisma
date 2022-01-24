@@ -1,9 +1,13 @@
 
 /* All Nav Bar */
 
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&family=Mochiy+Pop+P+One&display=swap');
+
+
 .aushaush {
     padding-left: 19%;
     background-color: #0ecaff;
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -23,6 +27,7 @@
 .super-hero {
     background-color: #0ecaff;
     text-align: center;
+    z-index:1
 }
 
   @media (prefers-color-scheme: dark) {
@@ -33,7 +38,7 @@
 
 .hero-background {
    background-image: url('https://i.ibb.co/KWcHx93/hero-background.webp');
-   background-repeat:no-repeat;
+   background-repeat: no-repeat;
    background-position: center;
    background-size: 60%;
    line-height: 400%;
@@ -41,6 +46,7 @@
 
 .main-title {
     color: white;
+    font-family: 'Mochiy Pop P One', sans-serif;
     font-weight: 620;
     font-size: calc(4.375rem + 1.5vw);
     text-shadow: 6px 1px 10px black;;

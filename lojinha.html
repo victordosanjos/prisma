@@ -1,20 +1,72 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-        <!-- The page supports both dark and light color schemes,
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- The page supports both dark and light color schemes,
              and the page author prefers / default is light. -->
-        <meta name="color-scheme" content="light dark">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-dark-5@1.1.3/dist/css/bootstrap-dark.min.css" rel="stylesheet">
-    
-        <title>Lojinha - Prisma</title>
-        <link rel="stylesheet" href="assets/css/styles.css">
-    </head>
+    <meta name="color-scheme" content="light dark">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-dark-5@1.1.3/dist/css/bootstrap-dark.min.css" rel="stylesheet">
+
+    <title>Lojinha - Prisma</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/lojinha.css">
+
+</head>
+
 <body>
-    
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-md navbar-dark storeDarkNav" ;>
+        <div class="container-fluid">
+            <a class="navbar-brand sticky-top" href="https://mc-prisma.com.br">
+                <img src="images/Logo-branca.png" width="40" height="40">
+            </a>
+
+            <!--Hamburguer mobile button-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Universal Nav Bar Links -->
+            <div id="navlinkMaster"></div>
+        </div>
+    </nav>
+    <div class="container-fluid vh-100 greyScaleAll">
+        <div class="container h-100 storePadding">
+            <div class="container">
+                <div class="row justify-content-around">
+                    <div class="col-4 containerStoreSize bg-rose">
+                        <img class="imageVIP d-block mx-auto" src="images/heart-wings.png" width="100%">
+                        <div class="text-center" style=" padding-top: 50px;">
+                            <a href="#" class="btn fw-bold border-0 text-dark bg-white ">É HORA DE
+                                ELEVAR</a>
+                        </div>
+                        <p class="advantagesText">Vantagens dentro do servidor. Confira!</p>
+                    </div>
+                    <div class="col-4 containerStoreSize text-white bg-darkGray">
+                        <img src="images/caveira-ban.webp" class= "mx-auto d-block unbanskull" alt="caveira unban" width="40%">
+                        <div class="unbanText" >
+                            <a href="#" class="btn fw-bold border-0 unbanText">UNBAN</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Universal Nav Bar Links-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $.get("navlinks.html", function (data) {
+            $("#navlinkMaster").replaceWith(data);
+        });
+    </script>
+
     <script src="assets/bootstrap/js/bootstrap.js"></script>
 </body>
+
 </html>
