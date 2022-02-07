@@ -1,0 +1,114 @@
+
+@media (prefers-color-scheme: dark) {
+    .darkModeHero {
+    background-color: #043c4c;
+    }
+}
+
+
+@media (prefers-color-scheme: dark) {
+    .darkModeNavBar {
+    background-color: #043c4c;
+    }
+}
+
+/* LOJA */
+
+.unbanskull{
+    padding-top: 50px;
+}
+
+.imageVIP {
+    padding-top: 120px;
+}
+
+.advantagesText {
+    margin-top: 120px;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    color: black !important;
+}
+
+.containerStoreSize{
+    min-width: 450px;
+    max-width: 450px;
+    min-height: 450px;
+    max-height: 450px;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 991px){
+    .containerStoreSizeMobile {
+        min-width: 200px;
+        max-width: 200px;
+        min-height: 200px;
+        max-height: 200px;
+    }
+
+    .MobileTextUnbanFixColor {
+        background-color: #303030;
+        color: white !important;
+    }
+
+    .MobileTextVipFixColor {
+        color: rgb(247,148,214) !important;
+    }
+    
+    .imageVIP {
+        padding-top: 50px;
+        padding-bottom: 25px;
+    }
+
+    .advantagesText {
+        margin-top: 55px;
+        font-size: 20px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 400;
+    }
+
+    }
+
+    /* Dark theme fix  */
+
+@media (prefers-color-scheme: dark) {
+    .greyBackgroudFixDarkMode {
+        background: #5e5e5e; 
+    }
+
+    .whiteBackgroundFixDarkMode {
+        background: #8e8e8e;
+    }
+    .bgUnbanFixDarkMode {
+        background: #d3d3d3;
+    }
+    .unbanTextColorFixDarMode {
+        background: #d3d3d3;
+        color: black !important;
+    }
+
+    .advantagesText {
+        color: white !important;
+    }
+
+}
+
+
+/* LOJA */
+
+/* CONTATO */
+
+.BackGroundContactDarkModeFix {
+    background-image: -webkit-linear-gradient(left, #0072ff, #00c6ff);
+}
+
+.formBackgroundDarkModeFix {
+    background: white;
+}
+
+@media (prefers-color-scheme: dark) {
+    .formBackgroundDarkModeFix {
+        background: black;
+    }
+}
+
+/* CONTATO */
