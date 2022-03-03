@@ -1,6 +1,6 @@
 import { styled, css } from '../../configs/stitches.config.ts'
 
-export const SuperHero = styled('div', {
+export const Div = styled('div', {
     backgroundColor: '$defaultLightBlue',
     textAlign: "center",
     backgroundImage: "url('https://proffelipebarros.com.br/wp-content/uploads/2022/02/hero-background.webp')",
@@ -8,14 +8,10 @@ export const SuperHero = styled('div', {
     backgroundPosition: "center",
     backgroundSize: "60%",
     lineHeight: "400%",
-    "@darkMode": {
-        backgroundColor: '$defaultDarkBlue'
-    },
-
 });
 
 
-export const Texts = styled('h1', {
+export const H1 = styled('h1', {
     color: '$White',
     fontFamily: '$1',
     fontWeight: '$3',
